@@ -32,14 +32,14 @@ header a{
 }
 /* carousel */
 .carousel{
-    height: 70vh;
+    height: 90vh;
     margin-top: -50px;
     width: 95vw;
     overflow: hidden;
     position: relative;
     /* border-top-left-radius: 140px;
     border-bottom-right-radius: 140px; */
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .carousel .list .item{
     width: 100%;
@@ -109,7 +109,7 @@ header a{
 }
 .thumbnail .item{
     width: 150px;
-    height: 200px;
+    height: 100px;
     flex-shrink: 0;
     position: relative;
 }
