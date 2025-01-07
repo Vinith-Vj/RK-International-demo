@@ -75,3 +75,6 @@ function showSlider(type){
    modalOverlay.classList.remove('show');
    mainContent.classList.remove('blur-background');
  });
+
+
+
