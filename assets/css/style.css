@@ -485,7 +485,8 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .sticky .navbar {
-    padding: 15px 0; }
+    padding: 15px 0; 
+  }
 
 .navbar {
   padding: 20px 0;
@@ -500,7 +501,7 @@ p {
 .navbar-brand {
   padding: 0; }
   .navbar-brand img {
-    width: 80px; }
+    width: 90px; }
 
 .navbar-toggler {
   padding: 0; }
@@ -765,10 +766,11 @@ p {
       display: contents;
       color: #FFB316; }
   .slider_content p {
-    font-size: 16px;
-    color: #fff;
-    margin-top: 30px;
-    max-width: 550px; }
+    font-size: 32px;
+    color: rgb(255 255 255);
+    margin-top: 16px;
+    max-width: 550px;
+  }
     @media (max-width: 767px) {
       .slider_content p {
         font-size: 16px; } }
@@ -834,7 +836,7 @@ p {
       width: 9px;
       height: 100%;
       left: -45px;
-      top: 0;
+      top: 18px;
       background-color: #1A3154; }
     .about_content .sub_title span {
       font-size: 70px;
@@ -1006,7 +1008,7 @@ p.form-message.success, p.form-message.error {
   .contact_form .single_form textarea {
     padding-top: 15px;
     resize: none;
-    height: 125px; }
+    height: 277px; }
 
 .contact_info p {
   margin-top: 15px; }
@@ -1142,7 +1144,7 @@ p.form-message.success, p.form-message.error {
 }
 
 .projects_area {
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 
@@ -1235,3 +1237,25 @@ p.form-message.success, p.form-message.error {
     border-radius: 20px;
   }
 } */
+
+
+.services_img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.services_img img {
+  border-radius: 10px;
+}
+
+.name-phone {
+  display: flex;
+  gap: 32px;
+}
+
+@media (max-width: 576px) {
+  .name-phone {
+    flex-direction: column;
+    gap: 0;
+  }
+}
