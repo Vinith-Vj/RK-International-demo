@@ -214,6 +214,26 @@ window.addEventListener("scroll", handleScroll);
 // Run the function initially in case elements are already in the viewport
 handleScroll();
 
-  
+   // Wait for the DOM to load
+   document.addEventListener('DOMContentLoaded', () => {
+    // Get the target element
+    const targetElement = document.getElementById('years_experience');
+
+    // Set the count-up target number
+    const countUpValue = 10; // Change this to your desired number
+
+    // Initialize the CountUp object
+    const countUp = new CountUp(targetElement, countUpValue, {
+      duration: 2, // Duration of the animation in seconds
+      separator: ',', // Add commas as thousand separators
+    });
+
+    // Start the animation
+    if (!countUp.error) {
+      countUp.start();
+    } else {
+      console.error(countUp.error);
+    }
+  });
 });
 
